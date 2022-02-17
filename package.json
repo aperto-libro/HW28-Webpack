@@ -1,0 +1,36 @@
+{
+  "name": "hw28-webpack",
+  "version": "1.0.0",
+  "description": "hw28-webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aperto-libro/HW28-Webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Vitalii Slobodoniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aperto-libro/HW28-Webpack/issues"
+  },
+  "homepage": "https://github.com/aperto-libro/HW28-Webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
